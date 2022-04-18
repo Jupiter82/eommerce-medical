@@ -1,3 +1,8 @@
+.colour-green
+{
+    color: #5ba41c;
+}
+
 .img-logo
 
 {
@@ -37,7 +42,7 @@
 {
     display: flex;
     width: 100%;
-    justify-content:space-evenly;
+    justify-content:space-between;
 }
 
 .shop-ca-card
@@ -52,4 +57,36 @@
 .price-explore
 {
     display: flex;
+}
+
+/* top-brands */
+
+.top-brand-card
+{
+    align-items: center;
+}
+
+
+.owl-nav button span {
+    font-size: 60px;
+    padding: 0px 20px;
+}
+
+button.owl-prev {
+    float: left;
+}
+
+button.owl-next {
+    float: right;
+}
+
+.owl-nav {
+    width: 100vw;
+    position: absolute;
+}
+
+.owl-carousel.owl-theme.owl-loaded.owl-drag {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
