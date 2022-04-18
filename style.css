@@ -9,5 +9,47 @@
 .order-containt
 {
     display: flex;
+    width: 100%;
+    flex-direction: column;
+}
 
+.row-O
+{
+    border: 1px darkgreen solid;
+    
+}
+#Order-medicine-beauty-wellness .row-O
+{
+    margin: 10px;
+
+
+}
+
+/* payment partner */
+#payment-partner .card .logo-1
+{
+    width: 30%;
+}
+
+/* shop by category */
+
+.categoty-items
+{
+    display: flex;
+    width: 100%;
+    justify-content:space-evenly;
+}
+
+.shop-ca-card
+{
+    display: flex;
+    align-items: center;
+}
+
+
+/* membership */
+
+.price-explore
+{
+    display: flex;
 }

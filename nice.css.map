@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AACI,+BAD2B,CAC3B,EAAE,CAAC;EACC,KAAK,EAAE,GAAG;CACb",
+    "sources": [
+        "nice.scss"
+    ],
+    "names": [],
+    "file": "nice.css"
+}
