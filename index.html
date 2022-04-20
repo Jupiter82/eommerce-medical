@@ -8,7 +8,7 @@
 
     <link rel="stylesheet" href="./style.css" />
     <link rel="stylesheet" href="./bootstrap/css/bootstrap.css" />
-    <link rel="stylesheet" href="./fontawesome/css/all.css" />
+    <link rel="stylesheet" href="./fontawesome/css/all.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css"
         integrity="sha512-OTcub78R3msOCtY3Tc6FzeDJ8N9qvQn1Ph49ou13xgA9VsH9+LRxoFU6EqLhW4+PKRfU+/HReXmSZXHEkpYoOA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -307,21 +307,25 @@
 
     </section>
     <br>
-    
+    <br>
+
 
     <section id="previously-ordered">
-        <div class="container">
+        <div class="container-fluid">
             <div class="row">
                 <div class="col-md-6 col-lg-6 col-sm-12">
                     <div class="row">
-                        <div class="col-md-4 col-lg-4 col-sm-12">
-                            <div class="previously-content">
-                                <h1>Previously Orders</h1>
-                                <p>your previously ordered products</p>
-                                <a href="#">View Orders</a>
+                        <div class="col-md-1 col-lg-1 col-sm-12">
+
+                        </div>
+                        <div class="col-md-9 col-lg-9 col-sm-12">
+                            <div class="previously-content d-flex">
+                                <h2>Previously Orders</h2>
+                                <p>Your previously ordered products</p>
+                                <a href="#"><span class="colour-light-green">View Orders</span> <img src="./images/icons/arrow_mark.svg" alt="" srcset=""></i></a>
                             </div>
                         </div>
-                        <div class="col-md-8 col-lg-8 col-sm-12">
+                        <div class="col-md-2 col-lg-2 col-sm-12 previously-ordered-img-1">
                             <img src="./images/icons/previous_orders.svg" alt="" />
                         </div>
                     </div>
@@ -329,25 +333,26 @@
 
                 <div class="col-md-6 col-lg-6 col-sm-12">
                     <div class="row">
-                        <div class="col-md-4 col-lg-4 col-sm-12">
-                            <div class="previously-content">
-                                <h1>Previously Orders</h1>
-                                <p>your previously ordered products</p>
-                                <a href="#">View Orders</a>
+                        <div class="col-md-9 col-lg-9 col-sm-12">
+                            <div class="previously-content d-flex">
+                                <h2>Beauty Products</h2>
+                                <p><span class="colour-green">Save Upto 40% Off</span></p>
+                                <a href="#"><button class="previously-ordered-btn">Explore Beauty</button></a>
                             </div>
                         </div>
-                        <div class="col-md-8 col-lg-8 col-sm-12">
-                            <img src="./images/icons/previous_orders.svg" alt="" />
+                        <div class="col-md-2 col-lg-2 col-sm-12">
+                            <img src="./images/icons/beauty_products.svg" alt="" />
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+    <br>
 
     <section id="trending-today">
         <div class="container-fluid">
-            <h1>trending today</h1>
+            <h3>Trending today</h3>
 
             <div class="car-trending-today owl-carousel owl-theme">
                 <div class="item">
@@ -372,10 +377,11 @@
         </div>
 
     </section>
-
+<br>
+<br>
     <section id="shop-by-category">
         <div class="container-fluid">
-            <h4>Shop By Category</h4>
+            <h3>Shop By Category</h3>
             <div class="categoty-items">
                 <div class="Covid-ess-category">
                     <div class="card shop-ca-card" style="width: 18rem">
@@ -420,11 +426,12 @@
             </div>
         </div>
     </section>
+    <br>
 
     <section id="top-brands">
         <!--top-brands-->
         <div class="container-fluid">
-            <h1>Top Brands</h1>
+            <h3>Top Brands</h3>
             <div class="car-top-brands owl-carousel owl-theme">
                 <div class="item">
                     <div class="top-brand">
@@ -564,21 +571,21 @@
         <div class="row">
             <div class="col-md-8 col-lg-8 col-sm-12">
                 <div class="row">
-                    <div class="col-md-2 col-lg-2 col-sm-12">
+                    <div class="col-md-2 col-lg-2 col-sm-12 row-membership-1">
                         <img src="./images/icons/netmeds_first_membership.svg" alt="" srcset="" />
                     </div>
 
                     <div class="col-md-10 col-lg-10 col-sm-12">
-                        <h1>Netmeds First Membership</h1>
-                        <p>Get special discounts and offers on Netmeds services.</p>
-                        <p>Get 2.5% NMS Cash on all orders.</p>
+                        <h3>Netmeds First Membership</h3>
+                        <p> <img class="black-dot" src="./images/icons8-filled-circle-24.png" alt="" srcset=""> Get special discounts and offers on Netmeds services.</p>
+                        <p><img class= "black-dot" src="./images/icons8-filled-circle-24.png" alt=""> Get 2.5% NMS Cash on all orders.</p>
                     </div>
                 </div>
             </div>
 
-            <div class="col-md-4 col-lg-4 col-sm-12 price-explore">
-                <p>starting at 299</p>
-                <button>explore plans</button>
+            <div class="col-md-4 col-lg-4 col-sm-12 price-explore d-flex">
+                <p class=""><img src="./images/icons8-bolt-64.png" alt="" srcset=""> Starting at Rs.299</p>
+                <button class="btn-membership">Explore Plans</button>
             </div>
         </div>
     </section>
@@ -639,6 +646,8 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
     integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
     crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./bootstrap/js/bootstrap.js"></script>
+<script src="./fontawesome/js/all.js"></script>
 <script text="owl">
     $(".carouel-i1").owlCarousel({
         loop: true,
@@ -713,7 +722,6 @@
         },
     });
 </script>
-<script src="./bootstrap/js/bootstrap.js"></script>
-<script src="./fontawesome/js/all.js"></script>
+
 
 </html>

@@ -1,10 +1,18 @@
+/* colour */
 .colour-green
 {
     color: #5ba41c;
 }
+
+.colour-light-green
+{
+    color: #24aeb1;
+}
 body
+
 {
     background-color: #f3f7fb !important;
+    overflow-x: hidden;
     
 }
 a
@@ -43,8 +51,11 @@ a
 #Order-medicine-beauty-wellness .row-O
 {
     margin: 10px;
+}
 
-
+.previously-ordered-img-1
+{
+    border-right:solid black 1px;
 }
 
 /* payment partner */
@@ -81,6 +92,21 @@ a
 {
     border-radius: 1rem !important;
 }
+/* previously-ordered */
+.previously-content
+{
+    flex-direction: column;
+}
+.previously-ordered-btn
+{
+    color: white;
+    background-color: #24aeb1;
+    border-radius: 0.2rem;
+    border: none;
+    width: 8rem;
+    height: 2.5rem;
+}
+
 /* shop by category */
 
 .categoty-items
@@ -105,6 +131,30 @@ a
     display: flex;
 }
 
+.row-membership-1
+{
+    margin: auto !important;
+    width: auto !important;
+}
+
+.black-dot
+{
+    width: 0.5rem;
+}
+
+.price-explore
+{
+    justify-content: space-evenly;
+    align-items: center;
+}
+.btn-membership
+{
+    color: white;
+    background-color: #24aeb1;
+    width: 8rem;
+    height: 3rem;
+    border-radius: 0.5rem;
+}
 /* top-brands */
 
 .top-brand-card
