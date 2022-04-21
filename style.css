@@ -8,6 +8,11 @@
 {
     color: #24aeb1;
 }
+.container-fluid
+{
+    padding-left: 2rem !important;
+    padding-right: 2rem !important;
+}
 body
 
 {
@@ -106,6 +111,13 @@ a
     width: 8rem;
     height: 2.5rem;
 }
+/* trending today */
+
+.trending-h1
+{
+    justify-content: space-between;
+    align-items: center;
+}
 
 /* shop by category */
 
@@ -114,12 +126,17 @@ a
     display: flex;
     width: 100%;
     justify-content:space-between;
-    padding-right: 2.5rem;
+    padding-right: 1.5rem;
 }
 
 .shop-ca-card
 {
     display: flex;
+    align-items: center;
+}
+.shop-by-category-h1
+{
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -155,6 +172,12 @@ a
     height: 3rem;
     border-radius: 0.5rem;
 }
+
+.membership-para1
+{
+    font-size: x-large;
+    color: #ef4281;
+}
 /* top-brands */
 
 .top-brand-card
@@ -184,5 +207,47 @@ button.owl-next {
 .owl-carousel.owl-theme.owl-loaded.owl-drag {
     display: flex;
     justify-content: center;
+    align-items: center;
+}
+
+.top-brand-h1
+{
+    text-align: center;
+    justify-content:space-between ;
+}
+
+/* categories in focus */
+
+.categories-in-focus-h1
+{
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+/* Explore Beauty */
+
+.Explore-beauty-category-item
+{
+    width: 80%;
+    justify-content: space-between;
+}
+#Explore-Beauty
+{
+    background-image: url(./images/background-img/bac-img-exp-beauty.svg);
+}
+
+/* best in beauty */
+#Best-in-beauty
+{
+    background-image: url(./images/background-img/back-img-bestinbeauty.svg);
+}
+
+/* personal care */
+
+/* Get-Medicine-refill */
+.get-medicine-subscribe
+{
+    justify-content: flex-end;
     align-items: center;
 }
