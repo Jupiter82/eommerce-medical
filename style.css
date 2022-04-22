@@ -251,3 +251,22 @@ button.owl-next {
     justify-content: flex-end;
     align-items: center;
 }
+
+/* heath-concerns */
+.health-concerns-img
+{
+width: 10rem;
+}
+.Health-Concerns-car
+{
+    align-items: center;
+    height: 18rem;
+    justify-content: space-around;
+}
+.health-concerns-card-body
+{
+    flex:none !important;
+    padding: 0 !important;
+}
+
+/* Advice from health Expert */
