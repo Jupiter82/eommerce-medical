@@ -23,6 +23,7 @@ body
 a
 {
     text-decoration: none !important;
+    color: black !important;
 }
 
 /* nav-bar */
@@ -285,3 +286,49 @@ width: 10rem;
 
 }
 /* information netmed */
+.mid-br
+{
+    display: block;
+    margin-bottom: 0.6rem;
+}
+
+/* footer */
+footer
+{
+    background-color:white;
+    
+}
+.content-1
+{
+    width:85%;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.ft-rw-part1
+{
+    flex-direction: column;
+}
+
+.enter-email-ft
+{
+    border-top: none ;
+    border-right: none ;
+    border-left:none ;
+    width: 15rem;
+
+}
+
+.ft-appstore-img
+{
+    width: 100%;
+    height: auto;
+}
+.ft-playstore-img
+{
+    
+    width: 100%;
+    height: auto;
+    
+    
+}
