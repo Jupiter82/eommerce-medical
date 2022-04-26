@@ -8,6 +8,12 @@
 {
     color: #24aeb1;
 }
+.colour-grey
+{
+    color: rgba(11,18,25,.5);
+}
+
+/* body */
 .container-fluid
 {
     padding-left: 2rem !important;
@@ -27,10 +33,39 @@ a
 }
 
 /* nav-bar */
-.img-logo
-
+header
 {
-    background-color: black;
+    background-color: #32aeb1;
+}
+.nav-part-right
+{
+    justify-content: space-around;
+}
+
+.part-1-nav-ri
+{
+    align-items:flex-start;
+}
+.part2-hd-contain
+{
+    justify-content: space-around;
+}
+.part2-hd-a
+{
+    align-items: center;
+}
+.hd-part3-text
+{
+    font-size:medium;
+}
+.hd-part3-flebox
+{
+    justify-content: space-between;
+   
+}
+.pt-3
+{
+     background-color: #f3f7fb;
 }
 
 
@@ -125,6 +160,7 @@ a
 .categoty-items
 {
     display: flex;
+    flex-wrap: wrap;
     width: 100%;
     justify-content:space-between;
     padding-right: 1.5rem;
@@ -232,6 +268,7 @@ button.owl-next {
 {
     width: 80%;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 #Explore-Beauty
 {
@@ -331,4 +368,10 @@ footer
     height: auto;
     
     
+}
+
+.ft-end
+{
+    justify-content: space-between;
+    height: 3rem;
 }

@@ -7,7 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <link rel="stylesheet" href="./style.css" />
-    <link rel="stylesheet" href="./bootstrap/css/bootstrap.css" />
+    <!-- <link rel="stylesheet" href="./bootstrap/css/bootstrap.css" /> -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="./fontawesome/css/all.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css"
         integrity="sha512-OTcub78R3msOCtY3Tc6FzeDJ8N9qvQn1Ph49ou13xgA9VsH9+LRxoFU6EqLhW4+PKRfU+/HReXmSZXHEkpYoOA=="
@@ -20,56 +22,129 @@
 </head>
 
 <body>
-    <section id="navbar">
-        <div class="img-logo">
-            <img src="./images/home-logo-netmeds-new.svg" alt="" srcset="" />
-        </div>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">Navbar</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Link</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
-                                Dropdown
-                            </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                <li><a class="dropdown-item" href="#">Another action</a></li>
-                                <li>
-                                    <hr class="dropdown-divider" />
-                                </li>
-                                <li>
-                                    <a class="dropdown-item" href="#">Something else here</a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link disabled">Disabled</a>
-                        </li>
-                    </ul>
-                    <form class="d-flex">
-                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
-                        <button class="btn btn-outline-success" type="submit">
-                            Search
-                        </button>
-                    </form>
+
+    <header>
+
+        <section id="navbar ">
+
+            <div class="container part1-hd">
+                <div class="pt-2 row">
+                    <div class="col-md-8 col-lg-8 col-sm-12">
+                        <div class="row">
+                            <div class="col-md-4 col-lg-4 col-sm-6">
+                                <div class="img-logo">
+                                    <a class="navbar-brand" href="#"><img src="./images/home-logo-netmeds-new.svg"
+                                            alt=""></a>
+                                </div>
+
+                            </div>
+                            <div class="col-md-8 col-lg-8 col-sm-6">
+                                <div>
+
+                                    <input class="form-control me-2" type="text"
+                                        placeholder="Search for Medicine & Wellness products..">
+                                </div>
+
+                            </div>
+
+                        </div>
+
+
+                    </div>
+                    <div class="col-md-4 col-lg-4 col-sm-12">
+                        <div class="nav-part-right d-flex">
+                            <div class="part-1-nav-ri d-flex">
+                                <img src="./images/header/upper-part/upload_rx.svg" alt="" srcset="">
+                                <p class="text-white">Upload</p>
+
+                            </div>
+
+                            <div class="part-1-nav-ri d-flex">
+                                <img src="./images/header/upper-part/cart_icon.svg" alt="" srcset="">
+                                <p class="text-white">Cart</p>
+
+                            </div>
+
+                            <div class="part-1-nav-ri d-flex">
+                                <img src="./images/header/upper-part/profile_icon.svg" alt="">
+                                <p class="text-white">Sign in / Sign out</p>
+                            </div>
+
+
+                        </div>
+
+                    </div>
+
+
+
                 </div>
+
+                <div>
+
+                </div>
+
             </div>
-        </nav>
-    </section>
+            <br>
+
+            <div class="container part2-hd">
+                <div class="d-flex part2-hd-contain">
+                    <a href="" class="part2-hd-a d-flex">
+                        <img src="./images/header/lower-part/medicine.svg" alt="" srcset="">
+                        <span class=" text-white p-2">Medicine</span>
+                    </a>
+                    <a href="" class="part2-hd-a d-flex">
+                        <img src="./images/header/lower-part/wellness.svg" alt="" srcset="">
+                        <span class="text-white p-2">Wellness</span>
+                    </a>
+                    <a href="" class="part2-hd-a d-flex">
+                        <img src="./images/header/lower-part/diagnostics.svg" alt="" srcset="">
+                        <span class="text-white p-2">Lab Test</span>
+                    </a>
+                    <a href="" class="part2-hd-a d-flex">
+                        <img src="./images/header/lower-part/beauty.svg" alt="" srcset="">
+                        <span class="text-white p-2">Beauty</span>
+                    </a>
+                    <a href="" class="part2-hd-a d-flex">
+                        <img src="./images/header/lower-part/health-library.svg" alt="" srcset="">
+                        <span class="text-white p-2">Health Corner</span>
+                    </a>
+
+
+                </div>
+
+            </div>
+            <br>
+            <div class="pt-3">
+                <div class="container part3-hd">
+                    <div class="hd-part3-flebox d-flex">
+                        <a href="#" class="hd-part3-text "> COVID Essentials</a>
+                        <a href="#" class="hd-part3-text">Diabetes </a>
+                        <a href="#" class="hd-part3-text">Eyewear </a>
+                        <a href="#" class="hd-part3-text"> Ayush</a>
+                        <a href="#" class="hd-part3-text"> Ayurvedic</a>
+                        <a href="#" class="hd-part3-text"> Homeopathy</a>
+                        <a href="#" class="hd-part3-text"> Fitness</a>
+                        <a href="#" class="hd-part3-text">Mom & Baby </a>
+                        <a href="#" class="hd-part3-text"> Devices</a>
+                        <a href="#" class="hd-part3-text"> Surgicals</a>
+                        <a href="#" class="hd-part3-text">Sexual Wellness </a>
+                        <a href="#" class="hd-part3-text">Treatments </a>
+
+                    </div>
+
+
+                </div>
+                <br>
+
+            </div>
+
+
+
+
+
+        </section>
+    </header>
+
 
     <section id="carousel-images">
         <div class="carouel-i1 owl-carousel owl-theme">
@@ -87,6 +162,7 @@
             </div>
         </div>
     </section>
+    <br>
     <br>
 
 
@@ -402,48 +478,52 @@
             </div>
 
             <br>
-            <div class="categoty-items">
-                <div class="Covid-ess-category">
-                    <div class="card shop-ca-card" style="width: 18rem">
-                        <img src="./images/Shop by category/covid_essentials_1.jpg" class="card-img-top" alt="..." />
-                        <div class="card-body">
-                            <p class="card-text">Covid Essential</p>
+            <div class="d-flex flex-box-shopbycategory">
+                <div class="categoty-items">
+                    <div class="Covid-ess-category">
+                        <div class="card shop-ca-card" style="width: 18rem">
+                            <img src="./images/Shop by category/covid_essentials_1.jpg" class="card-img-top"
+                                alt="..." />
+                            <div class="card-body">
+                                <p class="card-text">Covid Essential</p>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="Covid-ess-category">
-                    <div class="card shop-ca-card" style="width: 18rem">
-                        <img src="./images/Shop by category/ayush_1.jpg" class="card-img-top" alt="..." />
-                        <div class="card-body">
-                            <p class="card-text">Ayush</p>
+                    <div class="Covid-ess-category">
+                        <div class="card shop-ca-card" style="width: 18rem">
+                            <img src="./images/Shop by category/ayush_1.jpg" class="card-img-top" alt="..." />
+                            <div class="card-body">
+                                <p class="card-text">Ayush</p>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="Covid-ess-category">
-                    <div class="card shop-ca-card" style="width: 18rem">
-                        <img src="./images/Shop by category/devices_1.jpg" class="card-img-top" alt="..." />
-                        <div class="card-body">
-                            <p class="card-text">Devices</p>
+                    <div class="Covid-ess-category">
+                        <div class="card shop-ca-card" style="width: 18rem">
+                            <img src="./images/Shop by category/devices_1.jpg" class="card-img-top" alt="..." />
+                            <div class="card-body">
+                                <p class="card-text">Devices</p>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="Covid-ess-category">
-                    <div class="card shop-ca-card" style="width: 18rem">
-                        <img src="./images/Shop by category/fitness_1.jpg" class="card-img-top" alt="..." />
-                        <div class="card-body">
-                            <p class="card-text">Fitness</p>
+                    <div class="Covid-ess-category">
+                        <div class="card shop-ca-card" style="width: 18rem">
+                            <img src="./images/Shop by category/fitness_1.jpg" class="card-img-top" alt="..." />
+                            <div class="card-body">
+                                <p class="card-text">Fitness</p>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="Covid-ess-category">
-                    <div class="card shop-ca-card" style="width: 18rem">
-                        <img src="./images/Shop by category/mom_baby_1.jpg" class="card-img-top" alt="..." />
-                        <div class="card-body">
-                            <p class="card-text">Mom & Baby</p>
+                    <div class="Covid-ess-category">
+                        <div class="card shop-ca-card" style="width: 18rem">
+                            <img src="./images/Shop by category/mom_baby_1.jpg" class="card-img-top" alt="..." />
+                            <div class="card-body">
+                                <p class="card-text">Mom & Baby</p>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
+
         </div>
     </section>
     <br>
@@ -1388,16 +1468,22 @@
     <footer>
         <div class="container">
             <br>
+            <br>
             <div class="d-flex content-1">
 
                 <img src="./images/footer-images/netmeds-footer-logo.svg" alt="" srcset="">
                 <div>
-                    <h6>Netmeds.com, India Ki Pharmacy, is brought to you by the Dadha & Company – one of India’s most
-                        trusted <br> pharmacies, with over 100 years’ experience in dispensing quality medicines.</h6>
+                    <h6><span class="colour-grey">Netmeds.com, India Ki Pharmacy, is brought to you by the Dadha &
+                            Company – one of India’s most
+                            trusted <br> pharmacies, with over 100 years’ experience in dispensing quality
+                            medicines.</span></h6>
 
                 </div>
             </div>
+            <br>
             <hr>
+            <br>
+            <br>
 
             <div class="row">
                 <div class="col-lg-3 col-md-3 col-12">
@@ -1434,13 +1520,13 @@
                 </div>
                 <div class="col-lg-3 col-md-3 col-12">
                     <div class="d-flex ft-rw-part1">
-                    <h6>SOCIAL</h6>
-                    <a href="" class="mt-2" >Patients A like</a>
-                    <a href="" class="mt-2" >Facebook</a>
-                    <a href="" class="mt-2" >Twitter</a>
-                    <a href="" class="mt-2" >LinkedIn</a>
-                    <a href="" class="mt-2" >Youtube</a>
-                    <a href="" class="mt-2" >Refer & Earn</a>
+                        <h6>SOCIAL</h6>
+                        <a href="" class="mt-2">Patients A like</a>
+                        <a href="" class="mt-2">Facebook</a>
+                        <a href="" class="mt-2">Twitter</a>
+                        <a href="" class="mt-2">LinkedIn</a>
+                        <a href="" class="mt-2">Youtube</a>
+                        <a href="" class="mt-2">Refer & Earn</a>
                     </div>
 
 
@@ -1451,32 +1537,47 @@
 
                 </div>
                 <div class="col-lg-3 col-md-3 col-12">
-                    <h6 >SUBSCRIBE TO OUR NEWSLETTER</h6>
-                    <p class="mt-3"> Get a free subscription to our health and fitness tip and stay tuned to our latest offers</p>
+                    <h6>SUBSCRIBE TO OUR NEWSLETTER</h6>
+                    <p class="mt-3"> Get a free subscription to our health and fitness tip and stay tuned to our latest
+                        offers</p>
 
-                   <form class="footer-form d-flex" action="">
-                       <input class="enter-email-ft" type="email" name=""  placeholder="Enter your Email">
-                       <input type="image" value="submit" src="./images/footer-images/send-icon.svg" alt="submit Button" > 
-                   </form>
-                   <br>
+                    <form class="footer-form d-flex" action="">
+                        <input class="enter-email-ft" type="email" name="" placeholder="Enter your Email">
+                        <input type="image" value="submit" src="./images/footer-images/send-icon.svg"
+                            alt="submit Button">
+                    </form>
+                    <br>
 
-                   <div class="row">
-                       <div class="col-lg-6 cpl-md-6 col-sm-12">
-                           <img class="ft-appstore-img" src="./images/footer-images/app_store.png" alt="" srcset="">
+                    <div class="row">
+                        <div class="col-lg-6 cpl-md-6 col-sm-12">
+                            <img class="ft-appstore-img" src="./images/footer-images/app_store.png" alt="" srcset="">
 
-                       </div>
+                        </div>
 
-                       <div class="col-lg-6 cpl-md-6 col-sm-12">
-                        <img class="ft-playstore-img" src="./images/footer-images/play_store.png" alt="">
+                        <div class="col-lg-6 cpl-md-6 col-sm-12">
+                            <img class="ft-playstore-img" src="./images/footer-images/play_store.png" alt="">
+
+
+                        </div>
+
 
 
                     </div>
-                       
-                       
-
-                   </div>
 
                 </div>
+
+            </div>
+            <br>
+            <br>
+
+            <hr>
+            <div class=" ft-end d-flex">
+                <a class="fw-bold" href=""><span class="colour-grey">Medicine</span></a>
+                <a class="fw-bold" href=""><span class="colour-grey">Wellness</span></a>
+                <a class="fw-bold" href=""><span class="colour-grey">Lab Tests</span></a>
+                <a class="fw-bold" href=""><span class="colour-grey">Beauty</span></a>
+                <a class="fw-bold" href=""><span class="colour-grey">Copyright© 2022. All Rights Reserved.</span></a>
+
 
             </div>
 
@@ -1484,13 +1585,17 @@
     </footer>
 
 </body>
+<!-- <script src="./bootstrap/js/bootstrap.js"></script> -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
     integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
     crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
     integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
     crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-<script src="./bootstrap/js/bootstrap.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+
 <script src="./fontawesome/js/all.js"></script>
 <script text="owl">
     $(".carouel-i1").owlCarousel({
@@ -1552,7 +1657,7 @@
 
     $(".car-top-brands").owlCarousel({
         loop: false,
-        margin: 10,
+        margin: 0,
         nav: true,
         dots: false,
         responsive: {
@@ -1560,7 +1665,7 @@
                 items: 1,
             },
             600: {
-                items: 3,
+                items: 2,
             },
             1000: {
                 items: 5,
@@ -1578,7 +1683,7 @@
                 items: 1,
             },
             600: {
-                items: 3,
+                items: 1,
             },
             1000: {
                 items: 3,
