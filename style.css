@@ -12,6 +12,10 @@
 {
     color: rgba(11,18,25,.5);
 }
+.colour-pink
+{
+    color: #ef4281;
+}
 
 /* body */
 .container-fluid
@@ -437,4 +441,30 @@ footer
     background-color: #32aeb1;
     border-radius: 1rem;
     border: none;
+}
+
+
+/* wellness.html */
+
+/* Limited-time-deals */
+
+.Limi-part3
+{
+    flex-direction: column;
+}
+
+.img-limi-1
+{
+    width: auto !important;
+    margin: auto;
+    
+}
+
+.limi-button
+{
+    width:100%;
+    background-color: #24aeb1;
+    color: white;
+    border: none;
+    border-radius: 8px;
 }
