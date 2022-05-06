@@ -150,7 +150,15 @@ header
 }
 .payment-card
 {
+    
     border-radius: 1rem !important;
+}
+.logo-1
+{
+    max-width: 5rem;
+
+    max-height: 5rem;
+
 }
 /* previously-ordered */
 .previously-content
@@ -471,6 +479,14 @@ footer
     
 }
 
+.limi-button-maxi
+{
+    width:100%;
+    background-color: #24aeb1;
+    color: white;
+    border: none;
+    border-radius: 8px;
+}
 .limi-button
 {
     width:100%;
@@ -513,7 +529,7 @@ footer
     background-color: #f6f6f7;
 }
 
-.limi-button
+.limi-button-maxi
 {
     width: 10rem;
     height: 2.5rem;
@@ -527,9 +543,59 @@ footer
 .box-maxi-1
 {
     width: 10rem;
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+
+   
+}
+.box-maxi-1:-webkit-autofill{
+    -webkit-box-shadow: 0 0 0px 1000px white inset !important;
 }
 
 .pin-line
 {
+    justify-content: flex-start;
+}
+
+/* .demo-text-1
+{
+    justify-content:flex-start;
+    width: 25rem;
+    flex-wrap: wrap;
+} */
+
+.demo-text-1
+{
+    width: 30rem;
+}
+
+.round
+{
+    background-color: #02b7c2;
+    font-size: 1.7rem;
+    
+}
+
+
+.pin-line-box
+{
+    
+    border-bottom: #24aeb1 2px solid; 
+    align-items: flex-start;
+}
+
+.demo-text-1
+{
+    height: 2rem;
+}
+.offer-mixi
+{
     justify-content: space-between;
+    background-color: #f3f7fb;
+    border-radius: 1rem;
 }

@@ -131,7 +131,7 @@
                         <div class="row">
                             <div class="col-md-4 col-lg-4 col-sm-6">
                                 <div class="img-logo pt-4">
-                                    <a class="navbar-brand" href="#"><img src="./images/home-logo-netmeds-new.svg"
+                                    <a class="navbar-brand" href="index.html"><img src="./images/home-logo-netmeds-new.svg"
                                             alt=""></a>
                                 </div>
 
@@ -183,6 +183,7 @@
 
             </div>
             <br>
+            
 
             <div class="container part2-hd">
                 <div class="d-flex part2-hd-contain">
@@ -352,7 +353,7 @@
                         <p class="para-2-mixi fst-italic">* Delivery charges if applicable will be applied at checkout</p> 
                         
                         <div class="Limi-part4 container pb-2">
-                            <button class="limi-button  fw-normal fs-5 text-white">
+                            <button class="limi-button-maxi  fw-normal fs-5 text-white">
                                 Add To Card
                             </button>
 
@@ -364,28 +365,29 @@
                     <div>
                         <div>
                             <div>
-                                <h5 class="fw-bold text-muted">Check Availability & Expiry</h5>
+                                <h5 class="fw-bold text-muted pt-2">Check Availability & Expiry</h5>
                             </div>
                             <form id="pincode-form">
-                                <div class="pin-line d-flex">
-                                    <div><span class="colour-green-for-text-3 fs-5">PINCODE:</span>
+                                <div class="pin-line d-flex " >
+                                    <div class="d-flex pin-line-box pt-4 pb-2 ">
+                                        <span class="colour-green-for-text-3 fs-5">PINCODE:</span>
                                         <input class="fs-5 fw-bold box-maxi-1" type="tel" maxlength="6" name="pincode" id="pincode" value=""
-                                            placeholder="Enter Pincode">
+                                           autocomplete="on" placeholder="Enter Pincode">
                                         <a href="#demo" class="next-dash" data-bs-toggle="collapse"><span
-                                                class=" fs-1 next">&#65515;</span></a>
+                                                class="round  next-btn">&#65515;</span></a>
 
 
                                     </div>
 
                                     <div class="collapse" id="demo">
-                                        <div class="d-flex">
-                                            <div>
-                                                <p>Expiry Date</p>
-                                                <p>Aug 2023</p>
+                                        <div class="demo-text-1 d-flex">
+                                            <div class="demo-text-2 px-5">
+                                                <p  class="text-muted">Expiry Date</p>
+                                                <p class="fs-5">Aug 2023</p>
                                             </div>
-                                            <div>
-                                                <p>Expected Delivery</p>
-                                                <p>07-May-2022</p>
+                                            <div class="demo-text-2 px-5">
+                                                <p class="text-muted">Expected Delivery</p>
+                                                <p class="fs-5">07-May-2022</p>
                                             </div>
                                         </div>
 
@@ -396,17 +398,21 @@
                         </div>
 
                     </div>
+                    <br>
 
                     <div>
-                        <h6>OFFERS APPLICABLE</h6>
-                        <div>
-                            <div>
-                                <img src="./images/offer_blue_outline.svg" alt="">
-                                <p>Default Discount</p>
-                                <span>You get 50% OFF on this product</span>
+                        <h5 class="text-muted py-3">OFFERS APPLICABLE</h5>
+                        <div class="d-flex offer-mixi py-3 px-3 ">
+                            <div class="d-flex">
+                                <img class="pe-2" src="./images/offer_blue_outline.svg" alt="">
+                                <div>
+                                    <p class="para-1-mixi">Default Discount</p>
+                                <p class="para-1-mixi "><small><span class="colour-green">You get 50% OFF on this product</span></small></p>
+                                </div>
+                                
                             </div>
                             <div>
-                                <span>Offer Applied</span>
+                                <p><small><span class="colour-pink">Offer Applied</span></small></p>
                             </div>
 
                         </div>
